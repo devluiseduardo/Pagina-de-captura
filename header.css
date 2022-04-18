@@ -1,0 +1,45 @@
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  justify-content: space-between;
+  align-items: left;
+  align-content: start;
+  text-align: left;
+}
+
+.inicio {
+  display: flex;
+  flex: auto;
+  gap: 10px;
+  margin-top: 30px;
+  font-size: 15.95px;
+}
+
+input {
+  width: 488px;
+  height: 50px;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 2px solid #ff508a;
+}
+
+button {
+  background-color: #1e6cc6;
+  border-radius: 15px;
+  height: 50px;
+  width: 488px;
+  display: block;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-catia-ana {
+  max-width: 827px;
+  max-height: 859px;
+  margin-top: 10px;
+}
