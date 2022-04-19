@@ -1,19 +1,52 @@
 .header {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 10px 20px;
   justify-content: space-between;
   align-items: left;
   align-content: start;
   text-align: left;
+  margin-left: 80px;
+}
+
+.background {
+  background-image: url(./imagens/banner_inicio_Fundo\ 1.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  gap: 100px;
 }
 
 .inicio {
   display: flex;
   flex: auto;
   gap: 10px;
-  margin-top: 30px;
+  margin-top: 100px;
   font-size: 15.95px;
+}
+
+.subtexto {
+  font-weight: bold;
+  font-size: 32px;
+  padding: 10px 00px;
+  max-width: 30ch;
+}
+
+.subtexto2 {
+  padding-bottom: 30px;
+  max-width: 45ch;
+  font-size: 19px;
+}
+
+.cadastre {
+  color: #ff508a;
+  font-size: 19px;
+  max-width: 40ch;
+  margin-bottom: 10px;
 }
 
 input {
@@ -31,15 +64,21 @@ button {
   height: 50px;
   width: 488px;
   display: block;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  font-size: 1.5rem;
 }
 
 .img-catia-ana {
-  max-width: 827px;
-  max-height: 859px;
-  margin-top: 10px;
+  display: block;
+  max-width: 800px;
+}
+
+.saiba-mais {
+  margin-top: 50px;
+  display: block;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.kkk {
+  margin-top: 300px;
 }
