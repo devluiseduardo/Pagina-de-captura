@@ -11,15 +11,19 @@ body {
 h1,
 h2,
 h3,
-p {
+p,
+ul,
+li {
   margin: 0px;
   padding: 0px;
 }
 
-a {
+a,
+li,
+ul {
   text-decoration: none;
   color: #141414;
-  display: inline-block;
+  display: block;
 }
 
 img {

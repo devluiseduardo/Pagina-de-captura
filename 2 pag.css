@@ -1,0 +1,44 @@
+.kkk {
+  background: #c0c0c0;
+  text-align: center;
+}
+
+.container-2 {
+  display: flex;
+}
+
+.bg-ul {
+  background-image: url(./imagens/circulo\ 1\ pg2.svg);
+  background-repeat: no-repeat;
+  padding: 60px 0px;
+  text-align: center;
+  display: block;
+  width: 900px;
+}
+
+.bg-li {
+  padding: 20px;
+  margin: 50px;
+  background-color: #ffffff;
+  border-radius: 31px;
+  font-size: 18px;
+  display: flex;
+  gap: 20px;
+  max-width: 400px;
+  align-items: center;
+}
+
+.bg-li1 {
+  margin-left: auto;
+  gap: 110px;
+  padding-left: 60px;
+}
+
+.bg-li2 {
+  margin: auto;
+}
+
+.bg-li3 {
+  padding-right: 60px;
+  margin-left: auto;
+}

@@ -73,12 +73,10 @@ button {
 }
 
 .saiba-mais {
-  margin-top: 50px;
-  display: block;
-  text-align: right;
+  display: grid;
+  margin-top: 80px;
   font-size: 1.5rem;
-}
-
-.kkk {
-  margin-top: 300px;
+  justify-items: center;
+  justify-content: end;
+  gap: 20px;
 }
