@@ -6,6 +6,7 @@ html {
 body {
   max-width: 1920px;
   color: #141414;
+  background: #e5e5e5;
 }
 
 h1,
@@ -24,6 +25,8 @@ ul {
   text-decoration: none;
   color: #141414;
   display: block;
+  margin: 0px;
+  padding: 0px;
 }
 
 img {

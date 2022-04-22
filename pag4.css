@@ -1,0 +1,44 @@
+.container-44 {
+  background-image: url(./imagens/BANNER\ PARA\ QUEM\ ~E\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 700px;
+  padding: 140px;
+}
+
+.titulo-4 {
+  padding: 30px;
+  margin-left: 240px;
+}
+
+.titulo-4 span {
+  color: #ff508a;
+}
+
+.container-4 {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 33ch 33ch 33ch;
+  gap: 20px;
+  margin-left: 240px;
+  flex-direction: ;
+}
+
+.conteudo-container4 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.numero-conteudo {
+  display: block;
+  background: #52a3ff;
+  padding: 5px;
+  color: black;
+  margin-top: -40px;
+  margin-left: 20px;
+  width: 30px;
+}
