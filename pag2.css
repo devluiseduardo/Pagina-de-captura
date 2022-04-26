@@ -15,7 +15,7 @@
 
 .container-2 {
   display: grid;
-  grid-template-columns: 800px 400px;
+  grid-template-columns: 800px 250px;
   align-items: center;
   margin-top: 80px;
   gap: 0px;
@@ -24,7 +24,6 @@
 
 .titulo-pg2 {
   order: 2;
-  width: 400px;
 }
 
 .titulo-pg2-1 {
@@ -71,4 +70,61 @@
 .bg-li3 {
   padding-right: 60px;
   margin-left: auto;
+}
+
+@media (max-width: 1200px) {
+  .container-2 {
+    grid-template-columns: 700px 250px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 950px) {
+  .container-2 {
+    grid-template-columns: 500px 250px;
+    margin-top: 50px;
+  }
+  .bg-ul {
+    margin-left: -150px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container-2 {
+    grid-template-columns: 1fr;
+    margin-top: 80px;
+    gap: 0px;
+  }
+  .titulo-pg2 {
+    margin-left: 20px;
+    order: 1;
+  }
+
+  .bg-ul {
+    background-image: url(./imagens/circulo-rosa-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .bg-li1 {
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .bg-li2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .bg-li3 {
+    padding-right: 0px;
+    margin-left: 0px;
+  }
+  .bg-li {
+    padding: 20px;
+    justify-content: right;
+    margin-right: 0px;
+    margin-left: 10px;
+  }
 }

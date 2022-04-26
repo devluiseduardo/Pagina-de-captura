@@ -1,11 +1,10 @@
 .container-5 {
   background: #e5e5e5;
-  padding: 30px;
   display: grid;
-  grid-template-columns: 400px 570px;
+  grid-template-columns: 400px 530px;
   justify-content: center;
   margin-bottom: 150px;
-  gap: 80px;
+  gap: 60px;
   margin-top: 150px;
   align-items: center;
 }
@@ -43,14 +42,14 @@
   display: flex;
   background: #ffffff;
   border-radius: 23px;
-  padding: 60px 20px;
+  padding: 40px 20px;
   justify-content: center;
 }
 
 .container-5-1 {
   background-color: #f3f9ff;
   display: grid;
-  grid-template-columns: 300px 600px 300px;
+  grid-template-columns: 250px 600px 250px;
   align-items: center;
   justify-content: center;
   gap: 40px;
@@ -78,4 +77,57 @@
 .titulo-elas {
   color: #ff508a;
   font-size: 36px;
+}
+
+@media (max-width: 1200px) {
+  .container-5-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 18px;
+  }
+  .container-5 {
+    gap: 30px;
+  }
+  input {
+    width: 420px;
+    height: 50px;
+  }
+  .bg-botao button {
+    width: 430px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container-5 {
+    grid-template-columns: 310px 530px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 880px) {
+  .container-5 {
+    text-align: center;
+    grid-template-columns: 530px;
+    gap: 30px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .container-5-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 18px;
+  }
+  .elas {
+    text-align: center;
+    justify-content: center;
+  }
 }

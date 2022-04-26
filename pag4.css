@@ -3,7 +3,6 @@
   background-image: url(./imagens/BANNER\ PARA\ QUEM\ ~E\ 1.svg);
   background-repeat: no-repeat;
   background-position: right;
-  height: 700px;
   padding: 140px;
 }
 
@@ -41,4 +40,28 @@
   margin-left: 20px;
   width: 20px;
   text-align: center;
+}
+
+@media (max-width: 1150px) {
+  .container-4-1 {
+    grid-template-columns: 260px 260px;
+    gap: 40px;
+  }
+  .titulo-4 {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container-4-1 {
+    grid-template-columns: 260px;
+    gap: 40px;
+  }
+  .container-4 {
+    background-color: #f7f7f7;
+    background-image: url(./imagens/BANNER\ PARA\ QUEM\ ~E\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 140px;
+  }
 }
