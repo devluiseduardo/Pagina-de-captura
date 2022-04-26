@@ -9,6 +9,10 @@
   margin-left: 80px;
 }
 
+.header svg {
+  margin-top: 50px;
+}
+
 .background {
   background-image: url(./imagens/banner_inicio_Fundo\ 1.png);
   width: 100%;
@@ -50,7 +54,7 @@
 }
 
 input {
-  width: 488px;
+  width: 478px;
   height: 50px;
   display: block;
   margin-bottom: 10px;
@@ -58,7 +62,7 @@ input {
   border: 2px solid #ff508a;
 }
 
-button {
+.container-1 button {
   background-color: #1e6cc6;
   border-radius: 15px;
   height: 50px;

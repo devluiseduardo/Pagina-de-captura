@@ -1,14 +1,81 @@
 .container-5 {
+  background: #e5e5e5;
   padding: 30px;
+  display: grid;
+  grid-template-columns: 400px 570px;
+  justify-content: center;
+  margin-bottom: 150px;
+  gap: 80px;
+  margin-top: 150px;
+  align-items: center;
+}
+
+.container-5 h1 {
+  position: relative;
+  font-size: 36px;
+  color: #ff508a;
+}
+
+.container-5 p {
+  font-size: 18px;
+}
+
+.container-5 h1::before {
+  content: "";
+  display: block;
+  background-color: #52a3ff;
+  width: 33px;
+  height: 7px;
+  position: absolute;
+  top: -20px;
+}
+
+.container-5 button {
+  background-color: #3091ff;
+  border-radius: 15px;
+  height: 50px;
+  width: 488px;
+  display: block;
+  font-size: 1.5rem;
+}
+
+.bg-botao {
   display: flex;
+  background: #ffffff;
+  border-radius: 23px;
+  padding: 60px 20px;
+  justify-content: center;
 }
 
 .container-5-1 {
   background-color: #f3f9ff;
+  display: grid;
+  grid-template-columns: 300px 600px 300px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 18px;
+}
+
+.container-5-1 img {
+  margin-top: -70px;
+}
+
+.ela-1 {
+  text-align: right;
   display: flex;
-  padding: 30px;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.ela-2 {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .titulo-elas {
-  display: flex;
+  color: #ff508a;
+  font-size: 36px;
 }

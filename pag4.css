@@ -19,9 +19,8 @@
 .container-4-1 {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 33ch 33ch 33ch;
+  grid-template-columns: 260px 260px 260px;
   gap: 20px;
-  margin-left: 240px;
 }
 
 .conteudo-container4 {
