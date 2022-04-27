@@ -14,12 +14,12 @@
 .container-aula {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 0px;
   width: 291px;
   background-repeat: no-repeat;
   max-width: 30ch;
   text-align: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .titulo-3 {
@@ -29,12 +29,12 @@
 }
 
 .titulo-aula {
-  margin-top: 240px;
+  margin-top: 150px;
 }
 
 .descrição-aula {
   flex: 1;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .data-aula {
