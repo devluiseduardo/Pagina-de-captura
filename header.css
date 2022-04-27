@@ -106,7 +106,7 @@ input {
 
 @media (max-width: 1000px) {
   .header .header-2 {
-    margin-left: 20px;
+    margin-left: 0px;
     padding: 10px;
   }
   .inicio {
@@ -129,6 +129,11 @@ input {
 }
 
 @media (max-width: 750px) {
+  .header {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+  }
   .container-1 {
     display: grid;
     align-items: center;
@@ -151,7 +156,6 @@ input {
   .header-2 {
     margin: 0px;
     padding: 30px;
-    margin-left: 0px;
   }
   .inicio {
     font-size: 20px;
@@ -167,5 +171,35 @@ input {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-2 {
+    padding: 5px;
+  }
+  .subtexto {
+    font-weight: bold;
+    font-size: 32px;
+    padding: 10px;
+    max-width: 20ch;
+  }
+  .subtexto2 {
+    max-width: 35ch;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 420px) {
+  input {
+    width: 300px;
+    height: 50px;
+  }
+  .bg-botao button {
+    display: flex;
+    width: 310px;
+    padding: 20px;
+    font-size: 16px;
+    align-items: center;
   }
 }

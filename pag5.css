@@ -56,7 +56,7 @@
   font-size: 18px;
 }
 
-.container-5-1 img {
+.imagem-5 {
   margin-top: -70px;
 }
 
@@ -119,8 +119,8 @@
 
 @media (max-width: 750px) {
   .container-5-1 {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 40px;
@@ -129,5 +129,50 @@
   .elas {
     text-align: center;
     justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+  .ela-2 {
+    order: 2;
+  }
+  .imagem-5 {
+    display: block;
+    margin-top: 0px;
+    order: 3;
+  }
+}
+
+@media (max-width: 550px) {
+  .container-5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    justify-content: center;
+  }
+  input {
+    width: 350px;
+    height: 50px;
+  }
+  .bg-botao button {
+    width: 360px;
+    font-size: 1.2rem;
+  }
+  .container-5 h1::before {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  input {
+    width: 300px;
+    height: 50px;
+  }
+  .bg-botao button {
+    display: flex;
+    width: 310px;
+    padding: 00px;
+    font-size: 16px;
+    align-items: center;
   }
 }

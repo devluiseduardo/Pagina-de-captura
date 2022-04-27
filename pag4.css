@@ -31,6 +31,10 @@
   font-size: 18px;
 }
 
+.conteudo-container4-6 {
+  background-color: #ff508a;
+}
+
 .numero-conteudo {
   display: block;
   background: #52a3ff;
@@ -54,7 +58,8 @@
 
 @media (max-width: 750px) {
   .container-4-1 {
-    grid-template-columns: 260px;
+    display: flex;
+    flex-direction: column;
     gap: 40px;
   }
   .container-4 {
@@ -62,6 +67,12 @@
     background-image: url(./imagens/BANNER\ PARA\ QUEM\ ~E\ 1.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-    padding: 140px;
+    padding: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container-4 {
+    padding: 20px;
   }
 }

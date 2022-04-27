@@ -10,3 +10,26 @@
   font-size: 18px;
   color: #ffffff;
 }
+
+.img-footer {
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  .container-footer {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+  }
+  .container-footer p {
+    text-align: center;
+  }
+}

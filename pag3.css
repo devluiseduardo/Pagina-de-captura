@@ -67,3 +67,15 @@
 .bg-aula4 {
   background-image: url(./imagens/04\ 1.svg);
 }
+
+@media (max-width: 530px) {
+  .back-3 {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .back-3 {
+    padding: 10px;
+  }
+}
