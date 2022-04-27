@@ -81,15 +81,26 @@
 
 @media (max-width: 1200px) {
   .container-5-1 {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 40px;
     font-size: 18px;
   }
-  .container-5 {
+  .elas {
+    text-align: center;
+    justify-content: center;
     gap: 30px;
+    padding: 20px;
+  }
+  .ela-2 {
+    order: 2;
+  }
+  .imagem-5 {
+    display: block;
+    margin-top: 0px;
+    order: 3;
   }
   input {
     width: 420px;
